@@ -16,9 +16,9 @@ SoftwareSerial mySerial(0, 1); // RX, TX pins on Arduino UNO
 int data[1];
 
 // digital Pin variables
-const int TrigPin = 2;
-const int EchoPin = 3;      
-const int VibPin = 4;
+const int VibPin = 2;
+const int TrigPin = 3;
+const int EchoPin = 4;      
 
 // Ultrasonic sensor variables
 int MAXRange = 200; // Maximum ultasonic sensor distance measured
