@@ -157,6 +157,11 @@ void draw() {
   // Checking for houseing unit 2 data 
   if ( BTPort.available() > 0) { 
     FG = BTPort.read(); // read it and store it in FG variable 
+    if (FG == 128) {
+      FG = 0;
+    } else if (FG == 129) {
+      FG = 1;
+    }
   } else {
     FG = 3;
   }
