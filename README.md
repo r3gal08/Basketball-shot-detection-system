@@ -2,6 +2,8 @@
 
 This repository contains the source code for the **Basketball Shot Detection System**, developed as part of my **2nd Year Engineering project**. The project was completed over a 4-month period with a team of 4 members.
 
+I have some very personal love for this project regardless of it being done almost 10 years ago... 
+
 ## Features
 
 - **Shot Detection:** Detects basketball shot misses and makes.
